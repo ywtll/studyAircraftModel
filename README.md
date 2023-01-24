@@ -6,6 +6,21 @@
 #### 软件架构
 基于JFrame
 
+#### 使用方法
+1. 创建一个AircraftModel类
+2. 设置AircraftModel类的参数(常用参数列表如下方表格)
+3. 创建一个MapModel类
+4. 运行
+
+|属性|输入类型|描述|
+|step|int|控制飞机的速度|
+|up|int|方向向上|
+|down|int|方向向下|
+|left|int|方向向左|
+|light|int|方向向右|
+|x|int|飞机与窗口右边的距离|
+|y|int|飞机与窗口左边的距离|
+
 
 #### 使用说明
 用于交流与学习
