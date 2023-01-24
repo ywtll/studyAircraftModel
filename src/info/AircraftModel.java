@@ -47,7 +47,7 @@ public class AircraftModel extends JLabel {
      * 飞机向右的按键
      * 可以使用util.TestKeyBoardID获取键盘id
      */
-    int light = 68;
+    int right = 68;
 
 
     /**
@@ -131,12 +131,12 @@ public class AircraftModel extends JLabel {
         this.left = left;
     }
 
-    public int getLight() {
-        return light;
+    public int getRight() {
+        return right;
     }
 
-    public void setLight(int light) {
-        this.light = light;
+    public void setRight(int right) {
+        this.right = right;
     }
 
 }

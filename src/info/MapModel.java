@@ -63,7 +63,7 @@ public class MapModel extends JFrame {
                         aircraftModel.setY(aircraftModel.getY()+aircraftModel.step);
                     } else if (code == aircraftModel.left){
                         aircraftModel.setX(aircraftModel.getX()-aircraftModel.step);
-                    } else if (code == aircraftModel.light){
+                    } else if (code == aircraftModel.right){
                         aircraftModel.setX(aircraftModel.getX()+aircraftModel.step);
                     }
 
